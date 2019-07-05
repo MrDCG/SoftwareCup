@@ -1,0 +1,8 @@
+@echo off
+set str1=C:\abc\file1.abc
+call :show %str1%
+echo %str2%
+pause
+goto :eof
+:show
+set str2=%~dpn1
